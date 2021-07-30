@@ -67,14 +67,14 @@ h1 {
 }
 */
 
-.main, .sidenav, .sidebar {
+.main, .sideleft, .sideright {
   text-align: center;
   top: 0;
   height: 100%;
   padding: 0;
 }
 
-.sidenav, .sidebar {
+.sideleft, .sideright {
   position: fixed;
   color: #d9d9d9;
   left: 0;
@@ -82,13 +82,13 @@ h1 {
   vertical-align: middle;
 }
 
-.sidenav{
+.sideleft{
   width: 20%;
   background-color: #2e2a2aff;
   padding-top: 12%;
 }
 
-.sidebar {
+.sideright {
   margin-left: 85%;
   width: 15%;
   background-image: radial-gradient(#2e2a2aff,#080708ff) ;
