@@ -5,7 +5,7 @@ h1, h2, h3, li {
   align-self: center;
 }
 
-h4, h2, h3, .sidenav ul, p, .main ul, a {
+h4, h2, h3, .sideleft ul, p, .main ul, a {
   outline: none;
   text-decoration: none;
   color: #eaeaea;
@@ -41,7 +41,7 @@ h1 {
   line-height: 0;
 }
 
-.sidenav ul{
+.sideleft ul{
   font-size: 24px;
   line-height: 1.5;
 }
@@ -51,7 +51,7 @@ h1 {
   line-height: 2;
 }
 
-.sidenav ul, .main ul {
+.sideleft ul, .main ul {
   list-style-type: none;
   list-style-position: inside;
   padding-left: 0;
@@ -72,6 +72,7 @@ h1 {
   top: 0;
   height: 100%;
   padding: 0;
+  position: fixed;
 }
 
 .sideleft, .sideright {
